@@ -7,6 +7,9 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -16,7 +19,7 @@ import java.time.LocalDateTime;
 public class Matricula {
 
   @Id
-  @GeneratedValue
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
   @OneToOne(cascade = CascadeType.ALL)
