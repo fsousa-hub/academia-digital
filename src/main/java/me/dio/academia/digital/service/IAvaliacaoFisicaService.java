@@ -1,9 +1,13 @@
 package me.dio.academia.digital.service;
 
-import me.dio.academia.digital.entity.AvaliacaoFisica;
-import me.dio.academia.digital.entity.form.AvaliacaoFisicaForm;
-import me.dio.academia.digital.entity.form.AvaliacaoFisicaUpdateForm;
 
+//Importa a a clase AvaliacaoFisica
+import me.dio.academia.digital.entity.AvaliacaoFisica;
+//Importa a classe do form AvaliacaoFisicaForm
+import me.dio.academia.digital.entity.form.AvaliacaoFisicaForm;
+//Importa a classe do form AvaliacaoFisicaUpdateForm
+import me.dio.academia.digital.entity.form.AvaliacaoFisicaUpdateForm;
+//Importa a classe List
 import java.util.List;
 
 public interface IAvaliacaoFisicaService {
