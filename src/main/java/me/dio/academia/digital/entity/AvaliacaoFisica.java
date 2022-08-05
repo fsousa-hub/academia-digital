@@ -25,6 +25,7 @@ public class AvaliacaoFisica {
 
   private LocalDateTime dataDaAvaliacao = LocalDateTime.now();
 
+
   @Column(name = "peso_atual")
   private double peso;
 

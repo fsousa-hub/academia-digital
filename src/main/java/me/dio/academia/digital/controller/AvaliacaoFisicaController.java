@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 //Importa a classe List
 import java.util.List;
 
+//Controle para Avaliação Fisica
 @RestController
 @RequestMapping("/avaliacoes")
 public class AvaliacaoFisicaController {

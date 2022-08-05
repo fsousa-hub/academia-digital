@@ -10,6 +10,8 @@ import me.dio.academia.digital.entity.form.AvaliacaoFisicaUpdateForm;
 //Importa a classe List
 import java.util.List;
 
+
+//Interface para Avaliação Fisica
 public interface IAvaliacaoFisicaService {
   /**
    * Cria uma Avaliação Física e salva no banco de dados.
